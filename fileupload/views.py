@@ -21,7 +21,7 @@ def handle_uploaded_file(f):
     if not required_columns.issubset(df.columns):
         raise ValueError(f"Missing required columns. The file must contain {required_columns} columns.")
     
-    summary = df.groupby(['State', 'DPD']).size().reset_index(name='Count')
+    summary = df.groupby(['State', 'DPD']).size().reset_index(name='Count')w
     return summary
 
 def upload_file(request):
@@ -34,7 +34,7 @@ def upload_file(request):
                 send_mail(
                     'Summary Report',
                     summary_str,
-                    'your_email@example.com',  # Replace with your email
+                    'abhiv5976@gmail.com',  # Replace with your email
                     ['tech@themedius.ai', 'hr@themedius.ai'],
                     fail_silently=False,
                 )
