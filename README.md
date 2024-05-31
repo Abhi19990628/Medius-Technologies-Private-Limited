@@ -16,7 +16,7 @@ These instructions will help you set up the project on your local machine for de
 ### Prerequisites
 
 - Python 3.8+
-- Django 3.2+
+- Django 5.0+
 - Pandas
 - Openpyxl
 - Gunicorn
