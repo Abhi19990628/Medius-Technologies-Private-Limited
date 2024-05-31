@@ -1,6 +1,6 @@
 # Django File Upload Project
 
-This project is a Django-based web application that allows users to upload an Excel/CSV file, processes the file to generate a summary report, and sends the summary via email. The application is deployed on Heroku for testing.
+This project is a Django-based web application that allows users to upload an Excel/CSV file, processes the file to generate a summary report, and sends the summary via email. The application is deployed on Heroku for testing. and check the  all things
 
 ## Features
 
